@@ -10,7 +10,7 @@ const SocialIcons = (props: Props) => {
 
   return (
     <div>
-      <div className="items-center hidden sm:flex space-x-2">
+      <div className="items-center flex space-x-2">
         {/* <button className="px-4 text-white font-semibold py-2 rounded-md flex items-center justify-center uppercase  tracking-widest bg-[#008000] transition-all duration-200 ease-in">
           Donate
         </button> */}
