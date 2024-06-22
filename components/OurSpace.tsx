@@ -3,14 +3,14 @@ import Image from "next/image"
 const OurSpace = () => {
     return (
         <div id="ourspace" className="bg-white min-h-screen flex items-center justify-center py-10">
-            <div className="flex flex-col items-center justify-center md:flex-row md:justify-between w-full max-w-7xl">
-                <div className="flex flex-col items-center justify-center space-y-4 w-1/2">
+            <div className="flex flex-col items-center justify-center px-10 md:flex-row md:justify-between w-full max-w-7xl">
+                <div className="flex flex-col items-center justify-center space-y-4 md:w-1/2">
                     <Image src="/space.jpg" alt="Our Space" height={400} width={400} objectFit="cover" className="rounded" />
                     <Image src="/bgImage.jpg" alt="Our Space" height={400} width={400} objectFit="cover" className="rounded" />
 
                 </div>
 
-                <div className="w-1/2">
+                <div className="md:w-1/2">
                     <div className="relative flex h-full w-full items-center">
                         <div className="font-marker text-4xl text-center w-full mb-5 font-black">
                             <p className="underline underline--2">OUR SPACE</p>
